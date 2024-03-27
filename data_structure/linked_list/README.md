@@ -5,5 +5,5 @@ A linked list is a data structure consisting of a sequence of elements where eac
 In C, we typically implement a linked list using structures. Each element of the linked list is represented by a structure called a node. Each node contains two parts:
 - Data: The actual data being stored.
 - Pointer: A reference to the next node in the sequence.
-![Example Image](Screenshot 2024-03-27 181527.png)
+![Example Image](node.png)
 
