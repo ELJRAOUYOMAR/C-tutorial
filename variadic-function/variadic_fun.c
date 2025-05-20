@@ -14,12 +14,9 @@ void printNumbers(int count, ...){
     vprintf("%d%d%d%d\n",args);
 
     printf("using for loop\n");
-    for (i=0 ; i < count ; i++)
+    for (i = 0 ; i < count ; i++)
         // the second argument   is the type of the other arguments in the function 
         printf("%d\n",va_arg(args, int));
-    
-    
-
     va_end(args);
 }
 
